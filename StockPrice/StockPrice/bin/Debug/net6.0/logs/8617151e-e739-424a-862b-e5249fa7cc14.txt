@@ -1,0 +1,8 @@
+﻿Dropbox.Api.ApiException`1[Dropbox.Api.Files.DeleteError]: path_lookup/not_found/..
+   at Dropbox.Api.DropboxRequestHandler.Dropbox.Api.Stone.ITransport.SendRpcRequestAsync[TRequest,TResponse,TError](TRequest request, String host, String route, String auth, IEncoder`1 requestEncoder, IDecoder`1 responseDecoder, IDecoder`1 errorDecoder)
+   at StockPrice.Methods.DropboxClass.DropBoxClass.DeleteCreatedTable(ITelegramBotClient botClient, Update update, CancellationToken cancellationToken) in M:\VS repositories\StockPrice\StockPrice\Methods\DropboxClass\DropBoxClass.cs:line 200
+   at System.Threading.Tasks.Task.<>c.<ThrowAsync>b__128_1(Object state)
+   at System.Threading.QueueUserWorkItemCallbackDefaultContext.Execute()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading.PortableThreadPool.WorkerThread.WorkerThreadStart()
+   at System.Threading.Thread.StartCallback(); Request Id: ebcb27f587514a0ba4c518ae10adc3dd

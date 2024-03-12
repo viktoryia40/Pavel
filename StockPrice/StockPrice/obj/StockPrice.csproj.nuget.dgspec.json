@@ -1,0 +1,146 @@
+{
+  "format": 1,
+  "restore": {
+    "M:\\VS repositories\\StockPrice\\StockPrice\\StockPrice.csproj": {}
+  },
+  "projects": {
+    "M:\\VS repositories\\StockPrice\\StockPrice\\StockPrice.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "M:\\VS repositories\\StockPrice\\StockPrice\\StockPrice.csproj",
+        "projectName": "StockPrice",
+        "projectPath": "M:\\VS repositories\\StockPrice\\StockPrice\\StockPrice.csproj",
+        "packagesPath": "C:\\Users\\quick\\.nuget\\packages\\",
+        "outputPath": "M:\\VS repositories\\StockPrice\\StockPrice\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\quick\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AngleSharp": {
+              "target": "Package",
+              "version": "[0.17.1, )"
+            },
+            "Aspose.Cells": {
+              "target": "Package",
+              "version": "[22.12.0, )"
+            },
+            "ChoETL": {
+              "target": "Package",
+              "version": "[1.2.1.50, )",
+              "noWarn": [
+                "NU1603"
+              ]
+            },
+            "ChoETL.JSON": {
+              "target": "Package",
+              "version": "[1.2.1.50, )",
+              "noWarn": [
+                "NU1603"
+              ]
+            },
+            "CsvHelper": {
+              "target": "Package",
+              "version": "[30.0.1, )"
+            },
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.123, )"
+            },
+            "Dropbox.Api": {
+              "target": "Package",
+              "version": "[6.36.0, )"
+            },
+            "EPPlus": {
+              "target": "Package",
+              "version": "[6.1.1, )"
+            },
+            "Google.Apis": {
+              "target": "Package",
+              "version": "[1.58.0, )"
+            },
+            "Google.Apis.Auth": {
+              "target": "Package",
+              "version": "[1.58.0, )"
+            },
+            "Google.Apis.Sheets.v4": {
+              "target": "Package",
+              "version": "[1.58.0.2826, )"
+            },
+            "Leaf.xNet": {
+              "target": "Package",
+              "version": "[5.2.10, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Binder": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "Microsoft.Extensions.Configuration.Ini": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.0.31, )"
+            },
+            "Telegram.Bot": {
+              "target": "Package",
+              "version": "[18.0.0, )"
+            },
+            "iTextSharp": {
+              "target": "Package",
+              "version": "[5.5.13.3, )",
+              "noWarn": [
+                "NU1701"
+              ]
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
